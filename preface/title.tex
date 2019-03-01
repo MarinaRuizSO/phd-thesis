@@ -1,3 +1,6 @@
+\ifthenelse{\boolean{edthesis}}{\begin{singlespace}}{}
+
+
 \thispagestyle{empty}
 
 \begin{minipage}{\textwidth}
@@ -13,7 +16,7 @@
 \vfill
 \begin{center}
 \vspace{6cm}    
-\centerline{\epsfig{file=\dir/2Line2ColCMYK_CS3.eps,width=0.35\textwidth}}
+\centerline{\includegraphics[width=0.35\textwidth]{../preface/2Line2ColCMYK_CS3.pdf}}
 \vspace{0.5cm}
 Thesis submitted in fulfilment of\\
 the requirements for the degree of\\ 
@@ -25,4 +28,5 @@ University of Edinburgh --- 2003
 \newpage
 \thispagestyle{empty}
 
+\ifthenelse{\boolean{edthesis}}{\end{singlespace}}{}
 

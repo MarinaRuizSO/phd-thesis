@@ -7,8 +7,9 @@ This template setup allows you to produce:
 * a thesis that adheres to the UoE regulations
   (at least my interpretations of them and no-one complained when
   I submitted mine)
-* a nicely formatted pdf/ps version of the same thesis
-  with single line spacing, etc
+* about using the logo: https://www.ed.ac.uk/communications-marketing/resources/university-brand
+* a nicely formatted pdf version with and without hyperlinks of the same thesis
+  and with single line spacing, etc
 * individual documents for each chapter
 
 Indivdual chapters reside in their own directories. (Re)-Define the macro `\dir`
@@ -18,7 +19,7 @@ then use `\dir` to include files or graphics, e.g.
 ```
 \newcommand{\dir}{theory}
 \input{\dir/theory.tex}
-\epsfig{file=\dir/images/test.eps,width=0.5\textwidth}
+\includegraphics[width=0.7\textwidth]{\dir/figs/geek_flow_chart_nyt.png}
 ```
 
 Using this macro allows you to distribute files over a number of directories.
