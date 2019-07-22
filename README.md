@@ -41,6 +41,12 @@ accordingly. All files should be kept in this sub directory. If you want to
 produce a document for the individual chapter, run latex on the chapter.tex
 file.
 
+Bibliography
+------------
+You can have your bibliography database `bibliography.bib` in any directory you
+like as long as you set the `BIBINPUTS` environment variable to the directory
+containing your bib files. 
+
 The thesis directory
 --------------------
 This directory pulls files from the preface and the chapter directories together
@@ -67,6 +73,5 @@ or nice thesis version, e.g.
    Do something else for the nice version
 }
 ```
-
 
 If you have any questions or problems contact it.geos@ed.ac.uk.
