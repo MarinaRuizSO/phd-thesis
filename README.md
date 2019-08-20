@@ -75,3 +75,5 @@ or nice thesis version, e.g.
 ```
 
 If you have any questions or problems contact it.geos@ed.ac.uk.
+
+This template is licensed under Creative Commons CC BY-SA: https://creativecommons.org/licenses/by-sa/4.0/
